@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #444;
+}
+
+/* Navigation */
+.navbar {
+  background-color: #31708e;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #fffbea !important;
+}
+
+.nav-link {
+  color: #fffbea !important;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #bae0e4;
+  color: #1e4e54 !important;
+}
+
+/* Sections */
+#home {
+  background-color: #fffefa;
+}
+
+.home-title {
+  color: #22606f;
+  font-weight: 700;
+}
+
+.home-lead {
+  max-width: 700px;
+  color: #555;
+}
+
+.section-light {
+  background-color: #f9f6f0;
+}
+
+.section-title {
+  color: #22606f;
+  font-weight: 700;
+}
+
+/* Gallery Cards */
+.card {
+  border: none;
+  border-radius: .75rem;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.card-title {
+  color: #2a5d63;
+  font-weight: 600;
+}
+
+/* Contact Form */
+.form-control:focus {
+  border-color: #31708e;
+  box-shadow: 0 0 0 0.2rem rgba(49, 112, 142, .25);
+}
+
+.btn-primary {
+  background-color: #31708e;
+  border-color: #31708e;
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  background-color: #1e4e54;
+  border-color: #1e4e54;
+}
+
+/* Footer */
+footer {
+  background-color: #22606f;
+}
